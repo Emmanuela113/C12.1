@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Positioning in CSS</title>
+        <style>
+            div{
+                right:30px;
+                border:3px solid rosybrown;
+            }
+
+            div.absolute{
+                position:absolute;
+                left:30px;
+                border:3px solid rosybrown;
+            }
+
+            div.relative{
+                position:fixed;
+                left:100px;
+                border:3px solid rosybrown;
+            }
+
+            div.fixed{
+                position:fixed;
+                top:0;
+                right:20pxx;
+                width:300px;
+                border:3px solid rosybrown;
+            }
+
+            div.sticky{
+                position:sticky;
+                left:20px;
+                width: 100px;
+                border:3px solid rosybrown;
+            }
+            .O1{
+                opacity: 0.1;
+            }
+            .O3{
+                opacity: 0.3;
+            }
+            .O8{
+                opacity: 0.8;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Positioning</h2>
+        <div>
+         Div with no property
+        </div>
+        <div class="sticky">
+         Div with sticky property
+        </div>
+        <div class="relative">
+         This element has position relative
+         <div class="absolute">
+         Absolute class Div
+         </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="fixed">
+         Div with fixed position property 
+        </div>
+        <div class="O1">
+            opacity 0.1
+        </div>
+        <div class="O3">
+            opacity 0.3
+        </div>
+        <div class="O8">
+            opacity 0.8
+        </div>
+    </body>
+</html>
